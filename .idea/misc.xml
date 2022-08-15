@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/drawable/button_bg_color.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/anime_favoris.xml" value="0.152" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/anime_item_layout.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/content_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/fragment_anime.xml" value="0.264" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/fragment_anime_favoris.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/fragment_anime_item.xml" value="0.2" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/fragment_anime_main.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/fragment_anime_man.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/recycler_anime.xml" value="0.2" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/recycler_anime_favoris.xml" value="0.264" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/recycler_anime_item.xml" value="0.2" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/recycler_anime_main.xml" value="0.176" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/layout/recycler_main.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/menu/menu_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/alexi/OneDrive/Bureau/AnimeApp/app/src/main/res/xml/network_security_config.xml" value="0.13020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android API 32 Platform" project-jdk-type="Android SDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

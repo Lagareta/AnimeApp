@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AnimeApp</string>
+    <string name="first_fragment_label">AnimeFragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Rechercher</string>
+    <string name="anime_desc">anime_desc</string>
+    <string name="textview">TextView</string>
+    <string name="second_fragment_label">AnimeItemFragment</string>
+    <string name="synopsis">Synopsis:</string>
+    <string name="Synopsis">Synopsis</string>
+    <string name="third_fragment_label">FragmentAnimeFavoris</string>
+    <string name="favoris">favoris</string>
+    <string name="Favoris">Favoris</string>
+    <string name="Add_to_list">Add to list</string>
+    <string name="See_my_list">See my list</string>
+    <string name="FragmentAnimeFavoris">FragmentAnimeFavoris</string>
+    <string name="AnimeMain">AnimeMain</string>
+    <string name="AnimeMainFragment">AnimeMainFragment</string>
+    <string name="Titre">Titre</string>
+    <string name="Classement">Classement</string>
+    <string name="Episodes">Episodes</string>
+    <string name="trailer">Trailer</string>
+    <string name="rating">rating</string>
+    <string name="broadcast">broadcast</string>
+    <string name="duration">duration</string>
+    <string name="Saison">saison</string>
+    <string name="status">status</string>
+</resources>

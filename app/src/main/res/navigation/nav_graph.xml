@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AnimeMainFragment">
+
+    <fragment
+        android:id="@+id/AnimeFragment"
+        android:name="com.example.animeapp.activity.AnimeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/recycler_anime">
+
+        <action
+            android:id="@+id/action_AnimeFragment_to_AnimeItemFragment"
+            app:destination="@id/AnimeItemFragment" />
+        <action
+                android:id="@+id/action_AnimeFragment_to_FragmentAnimeFavoris"
+                app:destination="@id/FragmentAnimeFavoris" />
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/AnimeItemFragment"
+        android:name="com.example.animeapp.activity.AnimeItemFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_anime_item">
+
+        <action
+            android:id="@+id/action_AnimeItemFragment_to_AnimeFragment"
+            app:destination="@id/AnimeFragment" />
+        <action
+                android:id="@+id/action_AnimeItemFragment_to_AnimeMainFragment"
+                app:destination="@id/AnimeMainFragment" />
+        <action
+                android:id="@+id/action_AnimeItemFragment_to_FragmentAnimeFavoris"
+                app:destination="@id/FragmentAnimeFavoris" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnimeMainFragment"
+        android:name="com.example.animeapp.activity.AnimeMainFragment"
+        android:label="@string/AnimeMainFragment"
+        tools:layout="@layout/recycler_anime_main">
+
+        <action
+            android:id="@+id/action_AnimeMainFragment_to_AnimeItemFragment"
+            app:destination="@+id/AnimeItemFragment">
+        </action>
+
+        <action
+            android:id="@+id/action_AnimeMainFragment_to_FragmentAnimeFavoris"
+            app:destination="@+id/FragmentAnimeFavoris">
+
+        </action>
+    </fragment>
+
+    <fragment
+            android:id="@+id/FragmentAnimeFavoris"
+            android:name="com.example.animeapp.activity.FragmentAnimeFavoris"
+            android:label="@string/FragmentAnimeFavoris"
+            tools:layout="@layout/recycler_anime_favoris">
+
+    </fragment>
+
+
+
+</navigation>
